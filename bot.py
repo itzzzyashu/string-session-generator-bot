@@ -10,10 +10,10 @@ from pyrogram import Client
 from pyromod import listen
 
 
-API_ID = int(os.environ.get("API_ID", 0))
-API_HASH = os.environ.get("API_HASH", None)
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-API_KEY = os.environ.get("API_KEY", None)
+API_ID = int(input("Enter API_ID"))
+API_HASH = input("Enter API_HASH")
+BOT_TOKEN = input("Enter BOT_TOKEN")
+# API_KEY = os.environ.get("API_KEY", None)
 
 
 def main():
